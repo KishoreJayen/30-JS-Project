@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    *{
+        background-color: rgb(107, 98, 98);
+        font-family: 'Times New Roman', Times, serif;
+    }
+    input{
+        color: whitesmoke;
+        font-weight: bolder;  
+    }
+
+button{
+    padding: 20px;
+    background-color: gray;
+    margin-top: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: red;
+}
+img{
+    width: 35px;
+    height: 25px;
+    cursor: pointer;
+}
+
+
+</style>
+<body>
+    <h2>Randam Password Generator..!</h2>
+    <div class="class">
+        <input type="text " placeholder="Password" id="Password">
+        <img src="../RandomPassword/image.png" onclick="copyPassword()"  >
+    </div>
+    <button onclick="createPassword()">Generate Password</button>
+
+    <script src="Function.js"></script>
+</body>
+</html>
